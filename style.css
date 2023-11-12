@@ -1,0 +1,462 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+}
+
+.header ul li {
+    font-size: 26px;
+    padding: 10px 30px
+}
+
+
+.login-btn {
+    border-radius: 12px;
+    border: none;
+    font-size: 22px;
+    color: white;
+    padding: 13px 50px;
+    background-color: #204E51;
+}
+
+.signin-btn {
+    border-radius: 12px;
+    border: 2px  #204E51 solid;
+    font-size: 22px;
+    color:  #204E51;
+    margin-left: 30px;
+    padding: 13px 50px;
+    background-color: transparent;
+    
+}
+
+.showcase {
+    color: white;
+    background-size: 100% 540px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.jru.edu.in/wp-content/uploads/2017/05/AGRI-SECTOR-GROWTH-INDIA-624x468.jpg");
+    height: 540px;
+    text-align: center;
+}
+
+.showcase h1 {
+    padding-top: 1.3em;
+    font-size: 5em;
+}
+
+.showcase p {
+    margin: 20px 20em;
+    padding-bottom: 1.2em;
+}
+
+#learn-btn {
+    color: white;
+    border: 2px white solid;
+}
+
+.about-parent {
+    margin: 10em 1px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-left, .about-right {
+    width: 500px;
+}
+
+.about-left h1 {
+    color: #204E51;
+    margin-bottom: 10px;
+    font-size: 4.3em;
+}
+
+.about-left p {
+    margin-bottom: 20px;
+}
+
+.about-right img {
+    width: 100%;
+    height: 600px;
+    border-radius: 28px;
+}
+
+.about-right {
+    position: relative;
+}
+
+.about-right button {
+background-color: white;
+color: #204E51;
+border-radius: 22px;
+font-size: 38px;
+font-weight: bold;
+border: none;
+padding: 40px 2em;
+position: absolute;
+bottom: -40px;
+left: 80px;
+box-shadow: 3px 9px 12px rgb(206, 198, 198);
+}
+
+
+.service {
+    padding: 3em 10px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.box {
+    width: 100%;
+    height: 300px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0px 6px 6px rgb(206, 198, 198);
+}
+.service h1 {
+    margin-bottom: 20px;
+    color: #204E51;
+    font-size: 60px;
+}
+.box i {
+    margin-bottom: 20px;
+    padding-top: 50px;
+    font-size: 60px;
+}
+
+.box-parent {
+    margin: 30px 2px;
+    gap: 3em;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+}
+
+
+.product {
+    padding: 4em 2px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.product h1 {
+    font-size: 60px;
+    color: #204E51;
+    margin-bottom: 20px;
+}
+
+
+.product1 {
+    padding: 30px;
+    border-radius: 28px;
+    width:100%;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0px 4px 12px rgb(210, 203, 203);
+}
+
+.product1 img {
+    width: 200px;
+    border-radius: 22px;
+    margin-bottom: 30px;
+}
+.product1 h2 {
+    color: #204E51;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.product-parent {
+    margin: 2em 0px;
+    gap: 30px;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+}
+
+
+.farming-hero {
+    padding: 3em 5em;
+    color: white;
+    height: 400px;
+    background-size: 100% 400px;
+    background-repeat: no-repeat;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKGQ7FhSJLABad9qSKzs_hZAC-01x5op4cuw&usqp=CAU");
+    }
+
+    .farming-hero h1 {
+        margin-bottom: 20px;
+        font-size: 4em;
+    }
+
+
+.benefit-left, .benefit-right {
+    width: 520px;
+}
+.benefit-left h1 {
+    margin-bottom: 20px;
+    font-size: 5em;
+}
+
+.benefit-left p {
+    margin-bottom: 20px;
+}
+.benefit-right {
+    padding: 30px;
+    border-radius: 18px;
+    height: 500px;
+    background-color: #204E51;
+}
+
+.icon i {
+    font-size: 80px;
+    color: white;
+}
+
+.icon {
+    margin: 20px 2px;
+    gap: 50px;
+    display: flex;
+    color: white;
+}
+
+
+
+.benefit-parent {
+    justify-content: space-evenly;
+    display: flex;
+}
+.Testominals{
+    height: 600px;
+    text-align: center;
+
+}
+.Testominals h1{
+    font-size: 3em;
+  margin: 50px 8px;
+    
+}
+
+.Testominals-middle {
+    gap: 30px;
+    padding: 20px;
+    border-radius: 22px;
+    background-color: #204E51;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 140px;
+    height: 280px;
+}
+.Testominals-middle img{
+     width: 250px;
+    height: 180px;
+    border-radius: 22px;
+    margin-left: 200px;
+    margin-top: 30px;
+
+
+}
+.left-test h2{
+    margin-bottom: 20px;
+}
+.left-test p{
+    margin-right: -30px;
+    margin: 20px 10em;
+    padding-bottom: 1.2em;
+}
+.left-test i{
+    margin: 20px 2px;
+    gap: 50px;
+    color: orange
+
+}
+.Blog {
+    padding: 4em 2px;
+    background-color: white;
+    text-align: center;
+}
+.Blog h1 {
+    font-size: 60px;
+    color: #204E51;
+    margin-bottom: 20px;
+}
+.Blog-parent{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-evenly;
+} 
+.Blog-parent img{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 12px rgb(170, 164, 164); 
+}
+
+.Blog-parent p{
+    line-height: 1.3em;
+    margin-bottom: 15px;
+
+}
+
+.Blog1 h4 {
+  
+    font-size: 22px;
+    padding: 13px 50px;
+    border: none;
+    text-decoration: underline;
+}
+.footer{
+
+    padding: 40px;
+    background-color:rgb(1, 30, 32);;
+    height: 400px;
+    color: white;
+}
+.newletter-parent{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.newletter-parent h1{
+    margin-top: 100px;
+    font-size: 4em;
+  
+}
+.newletter-parent p{
+    margin-top: 30px;
+    font-size: 18px;
+    line-gap:20px;
+
+}
+
+.links-parent{
+display: flex;
+justify-content: space-between;
+}
+.links-left{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 70px;
+    color: white;
+    
+    }
+
+.right-links{
+
+    display: flex;
+    margin: 0px;
+    gap: 70px;
+}
+.right-links h3{
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 3em;
+    font-size: 28px;
+    margin-top: 0px;
+}
+
+#menu-icon{
+    font-size: 50px;
+    position: absolute;
+    right: 0px;
+    display: none;
+}
+
+@media screen and (max-width:600px){
+    #menu-icon{
+        display: block;
+    }
+    #buttons{
+        display: none;
+    }
+    .header ul{
+        display: none;
+    }
+    .header h1{
+        font-size: 24px;
+    }
+    .showcase h1{
+        font-size: 40px;
+    
+    }
+    .showcase p {
+        margin: 12px;
+    }
+    .signin-btn{
+        margin-right: 20px;
+        margin-top: 27px;
+    }
+    .about-parent{
+        flex-direction: column;
+    }
+    .about-left{
+        width: 300px;
+        margin: 20px;
+    
+    }
+    .about-left h1{
+        font-size: 30px;
+    }
+    .about-right{
+        margin: 20px;
+        width: 350;
+    }
+    .about-right{
+        padding: 20px 40px;
+        font-size: 20px;
+     right: 2.5em;
+    
+    }
+    .box-parent{
+        grid-template-columns: 300px;
+
+    }
+    .product h1{
+        font-size: 28px;
+    }
+
+    .product-parent{
+        margin-left: -60px;
+        grid-template-columns: 250px;
+    }
+    .farming-hero h1{
+        font-size: 28px;
+    }
+    .farming-hero{
+        padding: 20px;
+    }
+    #learn-btn{
+        margin-left: -3px;
+    }
+    .benefit-parent{
+        flex-direction: column;
+
+    }
+    .benefit-left{
+        margin: 20px;
+    }
+    .benefit-left{
+        width: 300px;
+    }
+    .benefit-left h1{
+        font-size: 38px;
+    }
+    .benefit-right{
+        width: 300px;
+    }
+    
+
+}
